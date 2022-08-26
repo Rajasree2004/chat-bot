@@ -89,3 +89,10 @@ stories:
       are you a bot?
     intent: bot_challenge
   - action: utter_iamabot
+
+- story: tue
+  steps:
+  - user: |
+      what is tue?
+    intent: tue
+  - action: utter_tue

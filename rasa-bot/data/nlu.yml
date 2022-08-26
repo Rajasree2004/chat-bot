@@ -89,3 +89,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: tue
+  examples: |
+    - What is tue?
+    - what is tue?
+    - what is tue
+    - tue
