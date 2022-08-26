@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,662 @@
   <!-- <link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" /> -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- <link href="css/main.css" rel="stylesheet"> -->
-  <title>Chatbot</title>
- 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  <title>DrAntiDope</title>
+
 </head>
+
 <body>
-  <script>!(function () {
-    let e = document.createElement("script"),
-      t = document.head || document.getElementsByTagName("head")[0];
-    (e.src =
-      "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+  <header>
+    <!-- div tag with class shortcut -- .<class name> with id -- #<idname>-->
+    <!-- OTHER TAGS--- element - <tag name>.<class name> / ID - <tag name>#<class name>  -->
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#">Dr ~Dope</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">Drugs</a>
+                <div class="dropdown-content">
+                  <a href="#">Prohibited Drugs</a>
+                  <a href="#">Alternatives</a>
+                  <a href="#">Search Drugs</a>
+                </div>
+              </div>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Awareness</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TUE</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12 text-white">
+          <h6>
+            WELCOME TO DR ~DOPE!
+          </h6>
+          <h1>
+            WE SAY NOPE TO DOPE!
+          </h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore aut libero dicta unde vitae
+            praesentium, est sequi itaque cupiditate incidunt! Eligendi ex adipisci sed, dicta repellendus
+            quasi soluta vitae quibusdam.
+
+          </p>
+          <button class="btn btn-light px-5 py-2 primary-btn">
+            Know about us!
+
+          </button>
+        </div>
+        <div class="col-md-5 col-sm-12 h-25">
+          <img
+            src="./images/96063010-runner-athlete-sprint-start-explosive-run-vector-illustration-removebg-preview.png"
+            alt="sport + drugs">
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <section class="section-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark relative"
+              data-bs-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                <button data-bs-target="#carouselDarkVariant" data-bs-slide-to="0" class="active" aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button data-bs-target="#carouselDarkVariant" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                <button data-bs-target="#carouselDarkVariant" data-bs-slide-to="2" aria-label="Slide 1"></button>
+              </div>
+
+              <!-- Inner -->
+              <div class="carousel-inner relative w-full overflow-hidden">
+                <!-- Single item -->
+                <div class="carousel-item active relative float-left w-full">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp" class="block w-full"
+                    alt="Motorbike Smoke" />
+                  <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item relative float-left w-full">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp" class="block w-full"
+                    alt="Mountaintop" />
+                  <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item relative float-left w-full">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp" class="block w-full"
+                    alt="Woman Reading a Book" />
+                  <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Inner -->
+
+              <!-- Controls -->
+              <button
+                class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="next">
+                <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="pray">
+                        <img src="../static/images/cyc.jpeg" alt="com">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="panel text-left">
+                        <h1>
+                            Antidoping
+                        </h1>
+                        <p class="pt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, expedita vel! Similique
+                            omnis debitis minima nihil beatae reiciendis. Sed modi ad eius non quia totam, atque
+                            ullam quae earum itaque?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus qui quo, eum tempore
+                            cum suscipit quasi tenetur possimus dicta voluptatum sed sapiente maiores? Minima
+
+
+                            inventore quas nemo dignissimos, culpa quod.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+    </section>
+    <section class="section-2 container-fluid p-0">
+      <div class="cover">
+        <div class="overlay"></div>
+        <div class="content text-center">
+          <h1>Unique Features</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repellat est perspiciatis labore
+            quaerat doloremque debitis earum perferendis dolore molestias, repellendus minus quod in
+            consequatur eos impedit magnam eligendi necessitatibus.
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+          <div class="rect">
+            <h1>23434</h1>
+            <p>Healthy Sports Players</p>
+          </div>
+          <div class="rect">
+            <h1>3435</h1>
+            <p>Users</p>
+          </div>
+          <div class="rect">
+            <h1>
+              3544
+            </h1>
+            <p>
+              Subscribers
+            </p>
+          </div>
+          <div class="rect">
+            <h1>8789</h1>
+            <p>Experts to Support</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="purchase text-center">
+            <h1>Choose your plan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="cards">
+                <div class="d-flex flex-row justify-content-center flex-wrap">
+
+
+                     CARD 1 -->
+
+
+      <!-- <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title">FREE</h5>
+                            </div>
+                            <p class="card-text">
+                                Terms and condition apply
+                            </p>
+                            <div class="pricing">
+                                <h1>$0.00</h1>
+                                <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+      <!-- CARD 2 -->
+
+
+      <!-- <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title">MONTHLY PRO</h5>
+                            </div>
+                            <p class="card-text">
+                                Terms and condition apply
+                            </p>
+                            <div class="pricing">
+                                <h1>$120.00</h1>
+                                <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+      <!-- CARD 3 -->
+
+
+      <!-- <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title">YEARLY PRO</h5>
+                            </div>
+                            <p class="card-text">
+                                Terms and condition apply
+                            </p>
+                            <div class="pricing">
+                                <h1>$300.00</h1>
+                                <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>  -->
+
+
+      <section class="section-3 container-fluid p-0 text-center">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Download Our App for ALL Devices</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <div class="platform row">
+            <div class="col-md-6 col-sm-12 text-right">
+              <div class="desktop shadow-lg">
+                <div class="d-flex flex-row justify-content-center">
+                  <i class="fa-solid fa-desktop fa-3x py-2 pr-3"></i>
+                  <div class="text text-left">
+                    <h3 class="pt-1 m-0">
+                      Desktop
+                    </h3>
+                    <p class="p-0 m-0">
+                      On website
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-md-6 col-sm-12 text-left">
+              <div class="desktop shadow-lg">
+                <div class="d-flex flex-row justify-content-center">
+                  <i class="fa-solid fa-mobile-screen fa-3x py-2 pr-3"></i>
+                  <div class="text text-left">
+                    <h3 class="pt-1 m-0">
+                      Mobile
+                    </h3>
+                    <p class="p-0 m-0">
+                      Play Store
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">
+            Feedback from Users
+          </h1>
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="team row">
+          <div class="col-md-4
+             text-center">
+            <div class="card  d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img src="./images/bg.jpg"
+                  class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Virat Kohli</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                  veniam, illo dolor soluta assumenda
+                  minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                  voluptas!
+                </p>
+                <p class="text-black">Indian Cricketer</p>
+                <a href="#" class="text-secondary text-decoration-none">View More</a>
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 col-12 text-center"> -->
+          <!-- CARD 1 -->
+
+          <!-- <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Virat Kohli
+                        </h3> 
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <a href="#" class="text-decoration-none">View more</a>
+                        <p class="text-black-50">
+                            Indian Cricket Team Captain
+                        </p>
+                    </div>
+                </div>
+
+             </div> -->
+          <!-- <div class="col-md-4 col-12"> -->
+          <!-- CAROUSEL START -->
+          <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active"> -->
+          <!-- CARD 2 -->
+
+          <!-- <div class="card mr-2 d-inline-block shadow-lg text-center">
+                                <div class="card-img-top">
+                                    <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        Mary Kom
+                                    </h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                    <a href="#" class="text-decoration-none">View more</a>
+                                    <p class="text-black-50">
+                                        International Boxer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"> -->
+          <!-- CARD 3 -->
+
+          <!-- <div class="card mr-2 d-inline-block shadow text-center">
+                                <div class="card-img-top">
+                                    <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        Sania Mirza
+                                    </h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                    <a href="#" class="text-decoration-none">View more</a>
+                                    <p class="text-black-50">
+                                        Tennis Player
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+          <!-- CAROUSEL END -->
+          <!-- </div> -->
+          <div class="col-md-4">
+            <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+              <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                  <div class="card  d-inline-block shadow-lg text-center">
+                    <div class="card-img-top">
+                      <img src="./images/bg.jpg"
+                        class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Mary Kom</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                        recusandae, veniam, illo dolor soluta assumenda
+                        minima quia velit officia sit exercitationem nam ipsa, repellendus aut
+                        facilis quasi voluptas!
+                      </p>
+                      <p class="text-black">Boxer</p>
+                      <a href="#" class="text-secondary text-decoration-none">View More</a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card  d-inline-block shadow">
+                    <div class="card-img-top">
+                      <img src="./images/bg.jpg"
+                        class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Sania Mirza</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                        recusandae, veniam, illo dolor soluta assumenda
+                        minima quia velit officia sit exercitationem nam ipsa, repellendus aut
+                        facilis quasi voluptas!
+                      </p>
+                      <p class="text-black">Tennis Player</p>
+                      <a href="#" class="text-secondary text-decoration-none">View More</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4  text-center">
+            <div class="card d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img src="./images/bg.jpg"
+                  class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Sunil Chhetri</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                  recusandae, veniam, illo dolor soluta assumenda
+                  minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                  quasi voluptas!
+                </p>
+                <p class="text-black">Footballer</p>
+                <a href="#" class="text-secondary text-decoration-none">View More</a>
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 col-12 text-center"> -->
+          <!-- CARD 4 -->
+          <!-- <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Mary Kom
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <a href="#" class="text-decoration-none">View more</a>
+                        <p class="text-black-50">
+                            International Boxer
+                        </p>
+                    </div>
+                 </div>
+                   </div> -->
+
+        </div>
+      </section>
+  </main>
+  <footer>
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+        <div class="col-md-6 col-sm-6">
+          <div class="text-light">
+            About Us
+          </div>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate ducimus facilis
+            consequatur.
+          </p>
+          <p class="pt-4 text-muted">
+            Copyrights @2022 All rights reserved | Made by
+            <span>Azure Immortals</span>
+          </p>
+        </div>
+        <!-- <div class="col-md-5">
+                <h4 class="text-light">
+                    NewsLetter
+                </h4>
+                <p class="text-muted">
+                    Stay Updated
+                </p>
+                <form class="form-inlne">
+                    <div class="col pl-0">
+                        <div class="input-group pr-5">
+                            <input type="text" class="form-controlbg-dark text-white" placeholder="Email">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div> -->
+        <div class="col-md-6 col-sm-12">
+          <div class="text-light">Follow Us</div>
+          <p class="text-muted">
+            Social Media
+          </p>
+          <div class="column">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./main.js"></script>
+  <script>
+    let nCount = selector => {
+      $(selector).each(function () {
+        $(this)
+          .animate({
+            Counter: $(this).text()
+          }, {
+            // A string or number determining how long the animation will run.
+            duration: 4000,
+            // A string indicating which easing function to use for the transition.
+            easing: "swing",
+            /**
+             * A function to be called for each animated property of each animated element. 
+             * This function provides an opportunity to
+             *  modify the Tween object to change the value of the property before it is set.
+             */
+            step: function (value) {
+              $(this).text(Math.ceil(value));
+            }
+          });
+      });
+    };
+
+    let a = 0;
+    $(window).scroll(function () {
+      // The .offset() method allows us to retrieve the current position of an element  relative to the document
+      let oTop = $(".numbers").offset().top - window.innerHeight;
+      if (a == 0 && $(window).scrollTop() >= oTop) {
+        a++;
+        nCount(".rect > h1");
+      }
+    });
+
+
+
+    /**
+     *
+     *  sticky navigation
+     *
+     */
+
+    let navbar = $(".navbar");
+
+    $(window).scroll(function () {
+      // get the complete hight of window
+      let oTop = $(".section-2").offset().top - window.innerHeight;
+      if ($(window).scrollTop() > oTop) {
+        navbar.addClass("sticky");
+      } else {
+        navbar.removeClass("sticky");
+      }
+    });
+  </script>
+  <script>
+    !(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
       // Replace 1.x.x with the version that you want
       (e.async = !0),
       (e.onload = () => {
-        window.WebChat.default(
-          {
+        window.WebChat.default({
             // initPayload: "/greet",
-            customData: { language: "en" },
+            customData: {
+              language: "en"
+            },
             socketUrl: "http://localhost:5005",
             // add other props here
           },
@@ -31,10 +672,11 @@
         );
       }),
       t.insertBefore(e, t.firstChild);
-  })();
+    })();
   </script>
   </script>
 
-  
+
 </body>
+
 </html>
