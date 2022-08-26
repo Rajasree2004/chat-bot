@@ -32,7 +32,9 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_tue:
-  - text: "therapeutic use exemption http://localhost:5005"
+  - text: > 
+      therapeutic use exemption 
+      http://localhost:5005
 
 
 session_config:

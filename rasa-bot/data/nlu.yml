@@ -97,3 +97,11 @@ nlu:
     - what is tue
     - tue
 
+- intent: 
+  examples: |
+    - What is tue?
+    - what is tue?
+    - what is tue
+    - tue
+
+
