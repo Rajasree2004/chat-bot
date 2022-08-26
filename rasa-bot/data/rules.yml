@@ -21,3 +21,43 @@ rules:
   steps:
   - intent: tue
   - action: utter_tue
+
+- rule: Say about drugs anytime user says drugs
+  steps:
+  - intent: drugs
+  - action: utter_drugs
+
+- rule: Say about doping anytime user says doping
+  steps:
+  - intent: doping
+  - action: utter_doping
+
+- rule: Say about anti-doping anytime user says antidoping
+  steps:
+  - intent: adoping
+  - action: utter_adoping
+
+- rule: Say about DrAntiDope anytime user says DrAntiDope
+  steps:
+  - intent: drantidope
+  - action: utter_drantidope
+
+- rule: Say about forum anytime user says forum
+  steps:
+  - intent: forum
+  - action: utter_forum
+
+- rule: Say about adel anytime user says adel
+  steps:
+  - intent: adel
+  - action: utter_adel
+
+- rule: Say about adam anytime user says adam
+  steps:
+  - intent: adam
+  - action: utter_adam
+
+- rule: Say about reporting anytime user says report
+  steps:
+  - intent: report
+  - action: utter_report

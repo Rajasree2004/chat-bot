@@ -9,6 +9,16 @@ intents:
   - mood_unhappy
   - bot_challenge
   - tue
+  - drugs
+  - doping
+  - adoping
+  - drantidope
+  - forum
+  - adel
+  - adam
+  - report
+
+
 
 responses:
   utter_greet:
@@ -33,9 +43,64 @@ responses:
 
   utter_tue:
   - text: > 
-      therapeutic use exemption 
-      http://localhost:5005
+      Athletes, like all people, may have illnesses or conditions that require them to take a particular
+      medication/substance or undergo certain procedures/methods. For athletes, the substance or method may appear on WADA’s Prohibited List.In such instances, they may be granted a TUE, which gives them
+      permission to take a substance or use a method.
+      For further info: <link>
+      Get all your questions answered in our forum page. 
+      <forum_link>
 
+  utter_drugs:
+  - text: > 
+      Beclometasone
+      Flunisolide
+      Oxycodone
+      .
+      .
+      To know more <link>
+      <PDF link>
+      Get all your questions answered in our forum page. 
+      <forum_link>
+
+  utter_doping:
+  - text: > 
+      The use of a substance (such as an anabolic steroid or erythropoietin) or technique (such as blood doping) to illegally improve athletic performance.Get all your questions answered in our forum page. 
+      <forum_link>
+
+  utter_adoping:
+  - text: > 
+      Opposing or prohibiting illegal doping to improve athletic performance.Get all your questions answered in our forum page. 
+      <forum_link>
+
+  utter_drantidope:
+  - text: > 
+      The goal of DrAntidope is to educate and avoid the use of drugs which they might take knowingly or unknowingly. We focus on prevention and guide athletes in right direction to reach great heights.Get all your questions answered in our forum page. 
+      <forum_link>
+
+  utter_forum:
+  - text: > 
+      Get all your questions answered in our forum page. 
+      <forum_link>
+
+  utter_adel:
+  - text: > 
+      The Anti-Doping Education and Learning Platform (ADEL) is the central hub for WADA’s eLearning courses and education resources. ADEL supports the anti-doping community by providing training solutions for athletes, their support personnel and other stakeholders.
+      Get all your questions answered in our forum page.
+      <forum_link>
+
+  utter_adam:
+  - text: > 
+      The Anti-Doping Administration & Management System (ADAMS) is a digital tool that simplifies the daily activities of all stakeholders and athletes involved in the anti-doping system
+      Get all your questions answered in our forum page.
+      <forum_link>
+
+  utter_report:
+  - text: > 
+      Dont fear to report about doping.
+      Follow the link to report.
+      <report link>
+      Get all your questions answered in our forum page.
+      <forum_link>
 
 session_config:
   session_expiration_time: 60

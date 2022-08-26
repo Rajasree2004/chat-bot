@@ -97,11 +97,47 @@ nlu:
     - what is tue
     - tue
 
-- intent: 
+- intent: drugs
   examples: |
-    - What is tue?
-    - what is tue?
-    - what is tue
-    - tue
+    - prohibited drugs
+    - drug
+    - drug list
+    
+- intent: doping
+  examples: |
+    - doping
+    - what is doping
+    - dope
+    
+- intent: adoping
+  examples: |
+    - anti-doping
+    - what is anti-doping
+    - antidope
 
+- intent: drantidope
+  examples: |
+    - drantidope
+    - website use
+    - what is this website all about
 
+- intent: forum
+  examples: |
+    - forum
+    - social platform
+
+- intent: adel
+  examples: |
+    - adel
+    - what is adel
+    - elearning course 
+
+- intent: adam
+  examples: |
+    - adam
+    - what is adam
+
+- intent: report
+  examples: |
+    - report doping
+    - where to report doping
